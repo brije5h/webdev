@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Positiom</title>
+    <style>
+      #box1 {
+        position: ;
+        top: px;
+        left: 100px;
+      }
+      #box2 {
+        bottom: 0px;
+        right: 0px;
+      }
+      #box3 {
+        bottom: 0px;
+        right: 0px;
+      }
+
+      .box {
+        position: absolute;
+        border: 2px solid red;
+        height: 100px;
+        width: 100px;
+        border-radius: 5px;
+        text-align: center;
+      }
+      .parentBlock{
+          border: 2px solid grey;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parentBlock">
+      <div class="box" id="box1">Box1</div>
+      <div class="box" id="box2">Box2</div>
+      <div class="box" id="box3">Box3</div>
+      <div class="box" id="box4">Box4</div>
+    </div>
+  </body>
+</html>

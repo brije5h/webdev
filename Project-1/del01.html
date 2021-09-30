@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav using flex</title>
+</head>
+<style>
+    li{
+        list-style-type: none;
+        min-width: 50px;
+    }
+    a{
+        text-decoration: none;
+        color:white ;
+    }
+    .container ul{
+        background-color: #333;
+        display: flex;
+    }
+    .container a:hover{
+        background-color: #555;
+    }
+
+    /* Navbar Using Flex */
+    nav{
+        /* flex: 1 0 200px; */
+        min-width: 200px;
+    }
+</style>
+<body>
+    <div class="container">
+        <ul>
+            <li class="nav one"><a href="#">Home</a></li>
+            <li class="nav two"><a href="#">About</a></li>
+            <li class="nav three"><a href="#">Services</a></li>
+            <li class="nav four"><a href="#">Contact Us</a></li>
+        </ul>
+    </div>
+    
+</body>
+</html>

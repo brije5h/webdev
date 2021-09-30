@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Practice</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Georama:wght@100&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      h1 {
+        color: #c1cee3;
+        text-decoration-line: underline;
+        text-align: center;
+      }
+      .Para {
+        font-family: "Georama", sans-serif;
+        font-size: 20px;
+        color: #fcba03;
+      }
+      body {
+        background-color: rgb(20 67 90);
+      }
+      hr {
+        color: #e3d4aa;
+        align-content: center;
+        width: 100px;
+      }
+
+      .Topic {
+        width: 60%;
+        height: auto;
+        border-width: 4px;
+        border-color: #d9c489;
+        border-style: solid;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px;
+        background: url("/Images/photo-1485470733090-0aae1788d5af.jpeg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: auto;
+        margin-top: 10px
+      }
+
+      .Heading {
+        background-color: #d92121;
+        width: auto;
+      }
+      #Image1 {
+        width: 100px;
+        height: 120px;
+        padding: 10px;
+        margin: 10px;
+      }
+      #CircularImage {
+        height: 100px;
+        width: 100px;
+        margin-bottom: 25px;
+        margin-left: 20px;
+      }
+
+      #TopicThird, #TopicSecond, #TopicFirst{
+        float: left;
+      }
+      .navBar{
+        
+        background-color: black;
+      }
+      .navBar li{
+        color: WHite;
+        float: left;
+        list-style: none;
+        margin-left: 2px ;
+      }
+      .LinkOne:hover{
+        background-color:#e7e405;
+      }
+      .LinkOne{
+        background-color: #fcf049;
+
+      }
+
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSS</h1>
+
+    <header>
+      <nav class="navBar">
+        <ul id="UL">
+          <li id="NavList1">Home</li>
+          <li>About</li>
+          <li>Services</li>
+          <li>Contact us</li>
+        </ul>
+      </nav>
+      <br />
+      <br>
+
+      <div id="links">
+        <a class="LinkOne" href="#FirstHead">FirstHead</a>
+        <a class="LinkOne" href="#SecondHead">SecondHead</a>
+        <a class="LinkOne" href="#ThirdHead">ThirdHead</a>
+      </div>
+    </header>
+    <div class="Topic" id="TopicFirst">
+      <h2 class="FirstTopic Heading" id="FirstHead">Heading and Paragraph</h2>
+      <p class="FirstTopic Para" id="FirstPara">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime minima
+        aspernatur iusto possimus! Quidem animi repellendus est dolor cupiditate
+        ullam ipsa ipsum blanditiis voluptates maiores, sequi magni perspiciatis
+        aut similique quaerat, cum debitis ducimus possimus dignissimos tempora
+        minus placeat dicta beatae rerum? Fugiat aspernatur nulla repellendus
+        sint facere! Libero, nesciunt.
+        <img src="" alt="" />
+      </p>
+      <hr />
+    </div>
+
+    <div class="Topic" id="TopicSecond">
+      <h2 class="SecondTopic Heading" id="SecondHead">
+        Lorem ipsum dolor sit amet.
+      </h2>
+      <p class="SecondTopic Para" id="SecondPara">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime nihil
+        neque eligendi fuga laboriosam aut tempore modi iste, harum repellat
+        adipisci recusandae facilis consequatur eius voluptas! Quis ipsum eos
+        dolorum sunt quibusdam nemo! Voluptate recusandae tempora iste commodi
+        maiores ipsam impedit numquam accusantium molestias deserunt?
+      </p>
+      <hr />
+    </div>
+
+    <div class="Topic" id="TopicThird">
+      <h2 class="ThirdTopic Heading" id="ThirdHead">Lorem ipsum dolor sit.</h2>
+      <p class="ThirdTopic Para" id="ThirdPara">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis ipsum
+        quia commodi? Quaerat laboriosam atque porro rerum aut, id sunt, quos
+        ratione veniam officiis, eius aspernatur saepe quibusdam ipsum cum!
+        Vitae dolores aliquam atque minus asperiores itaque officiis deserunt
+        neque?
+      </p>
+      <hr />
+    </div>
+
+    <a href="https://unsplash.com/images/nature/mountain" target="_blank"
+      ><img
+        id="Image1"
+        src="/Images/john-towner-JgOeRuGD_Y4-unsplash.jpg"
+        alt="Image.jpg"
+    /></a>
+
+    <img id="CircularImage" src="/Images/circle-cropped.png" alt="Image" />
+  </body>
+</html>
